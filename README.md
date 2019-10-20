@@ -1,14 +1,13 @@
 # ¿Donde construir tu empresa? 
 Esa fue la pregunta con la que comezó este proyecto. Con esa idea en la cabeza, se busco una base de datos con las caracteríticas de miles de empresas, como punto de partida.
 
-Los pasos seguidos fuerón:
-- SDAFA
-
-
-
-y con el uso de una base de datos de miles de empresas, poder localizar el punto exacto de la colocación de una compañia. 
-Los pasos para realizarlo consistio en abrir dicha base de datos en Mongo para poder ir haciendo querys desde Python. De esta forma tener la información necesario y mediante el geonear de Mongo ver las proximidades de las empresas a distintas localidades.
-Tras esto enriquecer las querys obtenidas con las principales caracteristcas con varios datos sobre establecimientos populares que se pedian como condición para la construción de una futura empresa
-
+Desde ahí, los pasos seguidos fuerón:
+- Pasar la BD a Mongo
+- Unirla a Python donde poder ir haciendo querys.
+- Con las diversas consultas y posterior limpieza de los datos obtenidos, generar un archivo .json.
+- El cual volver a pasar a Mongo para posteriormente usar la funcion Geonear.
+- Con esos resultados, enriquecerlos con varias consultas de servicios requeridos para el futuro emplazamiento de la compañia.
+a una API con dicha información.
+- Crear un mapa con la localización de esa empresa y los servicios cercanos a la misma. 
 
 <img src="Mapa.png" />
