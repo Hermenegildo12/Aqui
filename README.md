@@ -2,7 +2,7 @@
 Esa fue la pregunta con la que comezó este proyecto. Con esa idea en la cabeza, se busco una base de datos con las caracteríticas de miles de empresas, como punto de partida.
 
 Los pasos seguidos fuerón:
-# SDAFA
+- SDAFA
 
 
 
